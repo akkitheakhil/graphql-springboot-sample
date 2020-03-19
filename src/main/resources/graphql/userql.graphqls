@@ -1,0 +1,10 @@
+type UserData {
+	id: ID!,
+	username: String,
+	email: String
+}
+
+type Query {
+	userData(id: ID): UserData
+	userDatas: [UserData]
+}
