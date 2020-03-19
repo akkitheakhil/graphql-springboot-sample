@@ -1,6 +1,6 @@
 # graphql-springboot-sample
 
-SpringBoot Java GraphQL API with Spring Security and MySQL DB with JPA
+SpringBoot Java GraphQL API with Spring Security,MySQL DB with JPA
 
 [Spring Boot](http://projects.spring.io/spring-boot/) sample app with GraphQL API.
 
