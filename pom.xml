@@ -59,6 +59,11 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.vault</groupId>
+			<artifactId>spring-vault-core</artifactId>
+			<version>2.0.1.RELEASE</version>
+		</dependency>
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -72,11 +77,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 			<version>2.1.6.RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.vault</groupId>
-			<artifactId>spring-vault-core</artifactId>
-			<version>2.2.2.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
@@ -95,6 +95,8 @@
 		</dependency>
 	</dependencies>
 
+
+
 	<build>
 		<plugins>
 			<plugin>
@@ -103,5 +105,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

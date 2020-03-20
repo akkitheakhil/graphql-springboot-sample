@@ -5,20 +5,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import com.api.movietribute.dto.RegisterUser;
-import com.api.movietribute.models.VaultConfiguration;
 import com.api.movietribute.services.IAuthService;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import java.util.function.Function;
+
 @Service
-@EnableConfigurationProperties(VaultConfiguration.class)
 public class JwtUtil {
 	
 
