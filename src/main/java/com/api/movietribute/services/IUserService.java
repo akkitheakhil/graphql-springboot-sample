@@ -13,5 +13,5 @@ public interface IUserService {
 	public List<UserData> getAllUserDataDetails();
 	public UserData mapUserToUserData(User user);
 	public Optional<UserData> getUserData(final int id);
-	
+
 }

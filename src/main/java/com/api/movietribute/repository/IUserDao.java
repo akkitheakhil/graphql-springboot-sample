@@ -6,4 +6,6 @@ import com.api.movietribute.models.User;
 
 public interface IUserDao extends JpaRepository<User, Integer> {
 
+	public User findByUsername(String username);
+
 }
